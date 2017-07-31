@@ -1,13 +1,13 @@
 //scripts.js
 
-var a;
-var b;
+var a = 2;
+var b = 3;
 var value = (a * a) + (2 * a * b) - (b * b);
 
 if (value > 0) {
 	console.log('Wynik dodatni');
-}	else if (value < 0) {
+} else if (value < 0) {
 	console.log('Wynik ujemny');
-}	else (value = 0); { 
+} else { 
 	console.log('Wynik równy ZERO');
 }
